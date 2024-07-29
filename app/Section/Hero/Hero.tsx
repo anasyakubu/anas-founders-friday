@@ -15,10 +15,7 @@ const Hero = () => {
         <div className="p-10 space-y-2 lg:grid lg:grid-cols-2 lg:gap-x-6 lg:space-y-0">
           <div className="">
             <div className="">
-              <p
-                className="mb-2 text-md font-semibold"
-                style={{ lineHeight: "2rem" }}
-              >
+              <p className="mb-2 text-sm font-semibold">
                 Join our premier monthly meetup for startup founders and tech
                 visionaries
               </p>
