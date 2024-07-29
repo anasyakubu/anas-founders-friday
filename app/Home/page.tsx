@@ -3,6 +3,7 @@ import Hero from "../Section/Hero/Hero";
 import WhoAreWeSection from "../Section/WhoAreWeSection/WhoAreWeSection";
 import WhatWeOfferSection from "../Section/WhatWeOfferSection/WhatWeOfferSection";
 import WhatHappens from "../Section/WhatHappens/WhatHappens";
+import SponsorSection from "../Section/SponsorSection/SponsorSection";
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <WhoAreWeSection />
       <WhatWeOfferSection />
       <WhatHappens />
+      <SponsorSection />
     </div>
   );
 };
