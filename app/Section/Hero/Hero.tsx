@@ -9,7 +9,7 @@ import "./Hero.scss";
 
 const Hero = () => {
   return (
-    <div className="Hero bg-[#f8f8f8] text-black">
+    <div className="Hero">
       <Nav />
       <div className="p-10 py-5">
         <div className="p-10 space-y-2 lg:grid lg:grid-cols-2 lg:gap-x-6 lg:space-y-0">
