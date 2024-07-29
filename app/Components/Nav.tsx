@@ -2,29 +2,19 @@
 import { useState } from "react";
 import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
-import Logo from "../assets/proptter-trans.png";
-import { FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa";
+import Logo from "../assets/Logo.png";
+import { FaLongArrowAltRight } from "react-icons/fa";
 import Image from "next/image";
 
 const navigation = [
   { name: "Home", href: "/" },
-  { name: "About", href: "/" },
-  // { name: "Github", href: "https://github.com/anasyakubu", target: "_blank" },
-  { name: "Apps", href: "/" },
-  { name: "Blog", href: "/" },
-  { name: "Contact", href: "/" },
-  // { name: "Contact", href: "#" },
+  { name: "About Us", href: "/" },
+  { name: "Gallery", href: "/" },
+  { name: "Contact Us", href: "/" },
 ];
 
 export default function Nav() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-
-  // const handleLogout = () => {
-  //   // Clear token from localStorage or sessionStorage
-  //   localStorage.removeItem("token");
-  //   // Redirect to login page
-  //   history.push("/login");
-  // };
 
   return (
     <div className="bg-transparent">
@@ -34,10 +24,9 @@ export default function Nav() {
           aria-label="Global"
         >
           <div className="flex lg:flex-1">
-            <a href="#" className="-m-1.5 p-1.5">
-              <span className="sr-only">Your Company</span>
-
-              <Image className="h-8 w-auto" src={Logo} alt="Logo" />
+            <a href="#" className="-m-1.5 p-1.5 flex gap-3">
+              <Image className="h-16 w-auto" src={Logo} alt="Logo" />
+              <span className="py-3 text-lg font-bold">Founder`s Friday</span>
             </a>
           </div>
           <div className="flex lg:hidden">
@@ -55,7 +44,7 @@ export default function Nav() {
               <a
                 key={item.name}
                 href={item.href}
-                className="text-sm font-semibold leading-6 text-black"
+                className="text-md font-medium leading-6 text-[black]"
               >
                 {item.name}
               </a>
@@ -63,25 +52,15 @@ export default function Nav() {
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
             <a
-              href="https://www.instagram.com/anass.developer/"
-              className="p-3 bg-black rounded-full m-2 icon"
-              target="_blank"
+              href="/Register"
+              className="p-3 px-10 text-sm bg-transparent border border-[#5C00B3] rounded-lg m-2 icon"
             >
-              <FaInstagram className="text-white" />
-            </a>
-            <a
-              href="https://www.linkedin.com/in/anas-yakubu-02a20725a/"
-              className="p-3 bg-black rounded-full m-2 icon"
-              target="_blank"
-            >
-              <FaLinkedin className="text-white" />
-            </a>
-            <a
-              href="https://github.com/anasyakubu"
-              className="p-3 bg-black rounded-full m-2 icon"
-              target="_blank"
-            >
-              <FaGithub className="text-white" />
+              <span className="text-[#5C00B3] flex gap-3">
+                <span>Register</span>{" "}
+                <span className="py-1">
+                  <FaLongArrowAltRight />
+                </span>{" "}
+              </span>
             </a>
           </div>
         </nav>
@@ -122,25 +101,15 @@ export default function Nav() {
                 </div>
                 <div className="py-6 flex lg:flex-1 lg:justify-end">
                   <a
-                    href="https://www.instagram.com/anass.developer/"
-                    className="p-3 bg-white rounded-full m-2 icon"
-                    target="_blank"
+                    href="/Register"
+                    className="p-3 px-10 text-sm bg-transparent border border-[#5C00B3] rounded-lg m-2 icon"
                   >
-                    <FaInstagram className="text-black" />
-                  </a>
-                  <a
-                    href="https://www.linkedin.com/in/anas-yakubu-02a20725a/"
-                    className="p-3 bg-white rounded-full m-2 icon"
-                    target="_blank"
-                  >
-                    <FaLinkedin className="text-black" />
-                  </a>
-                  <a
-                    href="https://github.com/anasyakubu"
-                    className="p-3 bg-white rounded-full m-2 icon"
-                    target="_blank"
-                  >
-                    <FaGithub className="text-black" />
+                    <span className="text-[#5C00B3] flex gap-3">
+                      <span>Register</span>{" "}
+                      <span className="py-1">
+                        <FaLongArrowAltRight />
+                      </span>{" "}
+                    </span>
                   </a>
                 </div>
               </div>

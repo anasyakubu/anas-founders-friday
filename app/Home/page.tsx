@@ -3,7 +3,7 @@ import Hero from "../Section/Hero/Hero";
 
 const Home = () => {
   return (
-    <div className="Home">
+    <div className="Home font-montserrat-eb">
       <Hero />
     </div>
   );
