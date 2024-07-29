@@ -1,0 +1,23 @@
+.Hero {
+  .text-5xl {
+    font-size: 5em;
+  }
+}
+
+@media (max-width: 600px) {
+  .Hero {
+    // height: 100vh;
+    .p-32 {
+      padding: 5%;
+
+      .text-5xl {
+        font-size: 4.1em;
+      }
+
+      .text {
+        margin-top: 15%;
+        width: 100%;
+      }
+    }
+  }
+}
