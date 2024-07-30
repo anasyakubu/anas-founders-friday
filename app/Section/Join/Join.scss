@@ -1,0 +1,16 @@
+@media (max-width: 600px) {
+  .Join {
+    // height: 100vh;
+    .p-10 {
+      padding: 3%;
+
+      .text-4xl {
+        font-size: 1rem;
+      }
+
+      br {
+        display: none;
+      }
+    }
+  }
+}

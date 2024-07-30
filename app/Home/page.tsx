@@ -8,6 +8,7 @@ import ComingTo from "../Section/ComingTo/ComingTo";
 import Community from "../Section/Community/Community";
 import Mission from "../Section/Mission/Mission";
 import Testimonial from "../Section/Testimonial/Testimonial";
+import Join from "../Section/Join/Join";
 
 const Home = () => {
   return (
@@ -22,6 +23,7 @@ const Home = () => {
       <Community />
       <Mission />
       <Testimonial />
+      <Join />
     </div>
   );
 };
