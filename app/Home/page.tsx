@@ -4,6 +4,7 @@ import WhoAreWeSection from "../Section/WhoAreWeSection/WhoAreWeSection";
 import WhatWeOfferSection from "../Section/WhatWeOfferSection/WhatWeOfferSection";
 import WhatHappens from "../Section/WhatHappens/WhatHappens";
 import SponsorSection from "../Section/SponsorSection/SponsorSection";
+import ComingTo from "../Section/ComingTo/ComingTo";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <WhatWeOfferSection />
       <WhatHappens />
       <SponsorSection />
+      <ComingTo />
     </div>
   );
 };

@@ -1,0 +1,22 @@
+.ComingTo {
+  background-image: url("../../assets/Banner-2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  h1 {
+    font-size: 5rem;
+    // color: #fff;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+
+    &.fade {
+      &.in {
+        opacity: 1;
+      }
+      &.out {
+        opacity: 0;
+      }
+    }
+  }
+}
