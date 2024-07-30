@@ -4,6 +4,7 @@ import Image from "next/image";
 import SecImage from "../../assets/IMG_2857 1.png";
 import { FaLongArrowAltRight } from "react-icons/fa";
 import { CiBag1 } from "react-icons/ci";
+import RegisterBtn from "@/app/Components/RegisterBtn";
 
 const WhoAreWeSection = () => {
   return (
@@ -26,14 +27,15 @@ const WhoAreWeSection = () => {
                 share ideas, and foster collaboration.
               </p>
               <div className="py-5 flex gap-5">
-                <button className="p-3 px-8 text-md  border bg-[#5C00B3] border-[#5C00B3] rounded-full">
+                {/* <button className="p-3 px-8 text-md  border bg-[#5C00B3] border-[#5C00B3] rounded-full">
                   <span className="text-[white] flex gap-3">
                     <span>Register</span>{" "}
                     <span className="py-1">
                       <FaLongArrowAltRight />
                     </span>{" "}
                   </span>
-                </button>
+                </button> */}
+                <RegisterBtn />
                 <button className="p-3 px-8 text-md  border bg-transparent border-[#5C00B3]  rounded-full">
                   <span className="text-[#5C00B3] flex gap-3">
                     <span>Donate</span>{" "}
