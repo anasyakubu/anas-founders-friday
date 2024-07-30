@@ -7,6 +7,7 @@ import SponsorSection from "../Section/SponsorSection/SponsorSection";
 import ComingTo from "../Section/ComingTo/ComingTo";
 import Community from "../Section/Community/Community";
 import Mission from "../Section/Mission/Mission";
+import Testimonial from "../Section/Testimonial/Testimonial";
 
 const Home = () => {
   return (
@@ -20,6 +21,7 @@ const Home = () => {
       <ComingTo />
       <Community />
       <Mission />
+      <Testimonial />
     </div>
   );
 };
