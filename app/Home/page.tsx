@@ -9,6 +9,7 @@ import Community from "../Section/Community/Community";
 import Mission from "../Section/Mission/Mission";
 import Testimonial from "../Section/Testimonial/Testimonial";
 import Join from "../Section/Join/Join";
+import Footer from "../Section/Footer/Footer";
 
 const Home = () => {
   return (
@@ -24,6 +25,7 @@ const Home = () => {
       <Mission />
       <Testimonial />
       <Join />
+      <Footer />
     </div>
   );
 };
