@@ -10,10 +10,7 @@ const Community = () => {
       <div className="p-10">
         <div className="">
           <div className="text-center">
-            <h2
-              className="text-4xl font-bold"
-              style={{ letterSpacing: "0.5px" }}
-            >
+            <h2 className="text-3xl font-bold">
               Register And Be Part of Our Community
             </h2>
             <p className="mt-3 text-sm text-gray-700">

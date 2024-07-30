@@ -6,6 +6,7 @@ import WhatHappens from "../Section/WhatHappens/WhatHappens";
 import SponsorSection from "../Section/SponsorSection/SponsorSection";
 import ComingTo from "../Section/ComingTo/ComingTo";
 import Community from "../Section/Community/Community";
+import Mission from "../Section/Mission/Mission";
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
       <SponsorSection />
       <ComingTo />
       <Community />
+      <Mission />
     </div>
   );
 };
